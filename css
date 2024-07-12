@@ -1,0 +1,33 @@
+recommendation-system/
+│
+├── data/
+│   ├── user_interactions.csv
+│   ├── content_metadata.csv
+│   └── social_connections.csv
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── com/
+│   │   │   │   ├── recommendation/
+│   │   │   │   │   ├── DataPreprocessing.java
+│   │   │   │   │   ├── UserBehaviorAnalysis.java
+│   │   │   │   │   ├── RecommendationAlgorithm.java
+│   │   │   │   │   ├── RealTimeProcessing.java
+│   │   │   │   │   └── BiasDetection.java
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       └── log4j2.xml
+│   └── test/
+│       ├── java/
+│       │   ├── com/
+│       │   │   ├── recommendation/
+│       │   │   │   ├── DataPreprocessingTest.java
+│       │   │   │   ├── UserBehaviorAnalysisTest.java
+│       │   │   │   ├── RecommendationAlgorithmTest.java
+│       │   │   │   ├── RealTimeProcessingTest.java
+│       │   │   │   └── BiasDetectionTest.java
+│       └── resources/
+│
+├── README.md
+└── pom.xml
